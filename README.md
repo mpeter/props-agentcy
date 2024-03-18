@@ -7,11 +7,11 @@
 ### Public Policy Researcher & Analysis
 
 <p>
-<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/amadad/agentcy" />
-<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/amadad/agentcy" />
-<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/amadad/agentcy" />
-<img alt="GitHub Stars" src="https://img.shields.io/github/stars/amadad/agentcy" />
-<img alt="GitHub Forks" src="https://img.shields.io/github/forks/amadad/agentcy" />
+<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/amadad/civic-agentcy" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/amadad/civic-agentcy" />
+<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/amadad/civic-agentcy" />
+<img alt="GitHub Stars" src="https://img.shields.io/github/stars/amadad/civic-agentcy" />
+<img alt="GitHub Forks" src="https://img.shields.io/github/forks/amadad/civic-agentcy" />
 <img alt="Github License" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
 <img alt="Twitter" src="https://img.shields.io/twitter/follow/amadad?style=social" />
 </p>

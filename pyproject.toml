@@ -1,22 +1,16 @@
-[build-system]
-requires = ["poetry>=1.0"]
-build-backend = "poetry.core.masonry.api"
-
 [tool.poetry]
-name = "civic-agentcy"
+name = "civic_agentcy"
 version = "0.1.0"
-description = "Public Policy Researcher & Analysis"
+description = "civic_agentcy using crewAI"
 authors = ["Ali Madad <ali@scty.org>"]
-license = "MIT"
-readme = "README.md"
 
 [tool.poetry.dependencies]
-langchain = "0.1.6"
-openai = "1.12.0"
-streamlit = "^1.0"  # Adjust the version as necessary
 python = ">=3.10,<=3.13"
+crewai = {extras = ["tools"], version = "^0.22.2"}
 
-[tool.poetry.dev-dependencies]
-pytest = ">=8.0.0,<9.0.0"
-black = "^20.8b1"
-isort = "^5.6"
+[tool.poetry.scripts]
+civic_agentcy = "civic_agentcy.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

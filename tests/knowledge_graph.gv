@@ -1,0 +1,16 @@
+// Knowledge Graph
+digraph {
+	1 [label="Digital Harms" color=blue]
+	2 [label="Information Sharing Practices" color=green]
+	3 [label="Privacy Violation" color=red]
+	4 [label="Data Breaches" color=red]
+	5 [label="Identity Theft" color=red]
+	6 [label="Online Fraud" color=red]
+	7 [label=Misinformation color=red]
+	1 -> 2 [label="Associated with" color=black]
+	2 -> 3 [label="Leads to" color=black]
+	2 -> 4 [label="Leads to" color=black]
+	2 -> 5 [label="Leads to" color=black]
+	2 -> 6 [label="Leads to" color=black]
+	2 -> 7 [label="Leads to" color=black]
+}

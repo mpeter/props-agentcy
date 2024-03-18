@@ -1,0 +1,17 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is 2024.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic} with url and citations.
+
+reporting_task:
+  description: >
+    Review the context you got and expand each topic into a full section for a report.
+    Make sure the report is detailed and contains any and all relevant information.
+    Include a list of references and citations.
+  expected_output: >
+    A comprehensive report encompassing the primary topics, each elaborated in a dedicated section filled with detailed information. 
+    Include URLs and citations formatted in Markdown, such as [Title of the Article or Resource](URL "Optional Tooltip Text"). 
+    The output should be presented in Markdown format without using code blocks denoted by '```'.

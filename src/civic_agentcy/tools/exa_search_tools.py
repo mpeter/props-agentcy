@@ -1,12 +1,15 @@
 import os
-import textwrap
-import requests
 import json
 from datetime import datetime, timedelta
-from crewai_tools import BaseTool  # Assuming crewai_tools is the correct import for your BaseTool class
-from exa_py import Exa  # Ensure exa_py is correctly installed and accessible
+from crewai_tools import BaseTool
+from exa_py import Exa 
 
 exa = Exa(api_key=os.environ["EXA_API_KEY"])
+
+# ExaSearchTool = search tool
+# ExaFindSimilarTool = find similar links tool
+# ExaGetContentsTool = retrieve contents tool
+# ExaSearchAndContentsTool = search and contents tool
 
 class ExaSearchTool(BaseTool):
     name: str = "Exa Search Tool"
